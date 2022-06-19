@@ -1,0 +1,121 @@
+*{
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  
+    font-family: system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header{
+    background-image:url("../images/post-img.jpg");
+    padding: 40px 0px;
+    font-size: 90px;
+    font-weight: 600;
+    color: #fff;
+    text-shadow: 0px 5px 10px  #000,0px -5px 10px  #0000, 5px 0px 10px  #000,-5px 0px 10px  #000;
+   
+
+}
+
+.header h1{
+    text-align: center;
+    color:#fff;
+    font-size: 40px;
+    font-weight: 600;
+    animation-name: mymove;
+    animation-duration: 2s;
+     animation-iteration-count: 1;
+}
+@keyframes mymove {
+    from{font-size: 0px;padding: 2 px 0px;}
+    to{font-size: 40px;}   
+   }
+.section2{margin-top:5px;}
+.input-field{
+    background-image: url("../images/header-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 80px;
+    border-radius: 40px;
+}
+.input-field #search{
+   margin: 30px 60px;
+   padding: 10px;
+   font-size: 20px;
+   background-color: transparent;
+   border:2px solid white;
+   border-radius: 10px;
+   text-align: center;
+   color: #fff;
+   box-shadow: 0px 0px 3px 3px #fff;
+   text-shadow: 0px 0px 5px #000;
+   
+}
+::placeholder{color:#fff;}
+.search-btn{
+    background-color: transparent;
+    color:white;
+    border:2px solid white;
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 3px #fff;
+    margin-bottom: 5px;
+  
+}
+.search-btn:hover{background-color: #cc0001;color:#fff;}
+.input-field img{
+    background-color: transparent;
+    color:white;
+    border:2px solid white;
+    height:65px;
+    width:65px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 3px 3px #fff;
+    margin-bottom: 5px;
+    display: none;
+}
+.status{
+    background: rgba(255, 255, 0,0.7);
+     margin: 20px 0px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 15px;
+}
+.status h2{
+    color:#fff;
+    
+}
+.status #msg{
+    color:blue;
+    font-size: 22px;
+}
+.section3{
+background-color: red;
+border:2px solid #000;}
+
+.table{
+    border: 1px solid #000;
+    margin:10px;
+    width:98%;
+}
+.table, th,td {
+   
+    padding: 10px 5px;
+    border-radius: 20px;
+    border: 2px solid #000;
+    background-color: rgb(66, 110, 110);
+  }
+ .table th {
+    color: #fff;
+    text-shadow: 0px 0px 5px #000;
+    font-size: 20px;
+    
+ }
+
+ .table td{
+    text-align:center;
+    color: #fff;
+    font-size: 15px;
+ }
